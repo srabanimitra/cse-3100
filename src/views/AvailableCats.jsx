@@ -53,7 +53,7 @@ export default function AvailableCats() {
       {/* Filter and Search Input */}
       <div
         className="flex justify-center items-center gap-4 mb-4"
-        style={{ maxWidth: '600px', margin: '0 auto', gap: '1rem' }}
+        style={{ maxWidth: '600px', margin: '0 auto', gap: '6rem' }}
       >
         <select
           id="breed-filter"
@@ -80,7 +80,7 @@ export default function AvailableCats() {
         />
 
         <button
-          className="bg-pink-500 text-white rounded-md px-4 py-2 hover:bg-pink-600"
+          className="bg-pink-100 text-black rounded-md px-4 py-2 "
           style={{ minWidth: '100px' }}
         >
           Search
